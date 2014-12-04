@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1D7DE1D3-41A3-4323-B48B-660E24F35085</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC65FC1D27409E748E34BD34B0DE255976468597</key>
+		<string>https://github.com/rburnam/Tinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC65FC1D27409E748E34BD34B0DE255976468597</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rburnam/Tinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC65FC1D27409E748E34BD34B0DE255976468597</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC65FC1D27409E748E34BD34B0DE255976468597</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Tinder_orig</string>
+		</dict>
+	</array>
+</dict>
+</plist>
