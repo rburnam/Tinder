@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B597D31A2CFA5900B26BA5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B597D21A2CFA5900B26BA5 /* Accounts.framework */; };
+		36B597D51A2CFA6100B26BA5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B597D41A2CFA6100B26BA5 /* Social.framework */; };
 		36B7B4411A2C3556009D7B24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7B4401A2C3556009D7B24 /* AppDelegate.swift */; };
 		36B7B4431A2C3556009D7B24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7B4421A2C3556009D7B24 /* ViewController.swift */; };
 		36B7B4461A2C3556009D7B24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B7B4441A2C3556009D7B24 /* Main.storyboard */; };
 		36B7B4481A2C3556009D7B24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B7B4471A2C3556009D7B24 /* Images.xcassets */; };
 		36B7B44B1A2C3556009D7B24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36B7B4491A2C3556009D7B24 /* LaunchScreen.xib */; };
 		36B7B4571A2C3556009D7B24 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B7B4561A2C3556009D7B24 /* TinderTests.swift */; };
+		36C477571A2CD11A00212160 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477541A2CD11A00212160 /* Bolts.framework */; };
+		36C477581A2CD11A00212160 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477551A2CD11A00212160 /* Parse.framework */; };
+		36C4775B1A2CD20000212160 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4775A1A2CD20000212160 /* AudioToolbox.framework */; };
+		36C4775D1A2CD20B00212160 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4775C1A2CD20B00212160 /* CFNetwork.framework */; };
+		36C4775F1A2CD21700212160 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4775E1A2CD21700212160 /* CoreGraphics.framework */; };
+		36C477611A2CD22100212160 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477601A2CD22100212160 /* CoreLocation.framework */; };
+		36C477631A2CD22D00212160 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477621A2CD22D00212160 /* libz.dylib */; };
+		36C477651A2CD23900212160 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477641A2CD23900212160 /* MobileCoreServices.framework */; };
+		36C477671A2CD24400212160 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477661A2CD24400212160 /* QuartzCore.framework */; };
+		36C477691A2CD24E00212160 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C477681A2CD24E00212160 /* Security.framework */; };
+		36C4776B1A2CD25800212160 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4776A1A2CD25800212160 /* StoreKit.framework */; };
+		36C4776D1A2CD26300212160 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C4776C1A2CD26300212160 /* SystemConfiguration.framework */; };
+		36DEB3491A2FC3A0004070F1 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DEB3481A2FC3A0004070F1 /* twitter.png */; };
+		36DEB34D1A2FD44E004070F1 /* DisplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DEB34C1A2FD44E004070F1 /* DisplayListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36B597D21A2CFA5900B26BA5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		36B597D41A2CFA6100B26BA5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		36B7B43B1A2C3556009D7B24 /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B7B43F1A2C3556009D7B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B7B4401A2C3556009D7B24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +54,21 @@
 		36B7B4501A2C3556009D7B24 /* TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B7B4551A2C3556009D7B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B7B4561A2C3556009D7B24 /* TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderTests.swift; sourceTree = "<group>"; };
+		36B7B4621A2CC729009D7B24 /* Tinder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tinder-Bridging-Header.h"; sourceTree = "<group>"; };
+		36C477541A2CD11A00212160 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		36C477551A2CD11A00212160 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		36C4775A1A2CD20000212160 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		36C4775C1A2CD20B00212160 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		36C4775E1A2CD21700212160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36C477601A2CD22100212160 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		36C477621A2CD22D00212160 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		36C477641A2CD23900212160 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		36C477661A2CD24400212160 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		36C477681A2CD24E00212160 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		36C4776A1A2CD25800212160 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		36C4776C1A2CD26300212160 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		36DEB3481A2FC3A0004070F1 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = ../../../../Downloads/twitter.png; sourceTree = "<group>"; };
+		36DEB34C1A2FD44E004070F1 /* DisplayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DisplayListViewController.swift; path = ../DisplayListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +76,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B597D51A2CFA6100B26BA5 /* Social.framework in Frameworks */,
+				36B597D31A2CFA5900B26BA5 /* Accounts.framework in Frameworks */,
+				36C4776D1A2CD26300212160 /* SystemConfiguration.framework in Frameworks */,
+				36C4776B1A2CD25800212160 /* StoreKit.framework in Frameworks */,
+				36C477691A2CD24E00212160 /* Security.framework in Frameworks */,
+				36C477671A2CD24400212160 /* QuartzCore.framework in Frameworks */,
+				36C477651A2CD23900212160 /* MobileCoreServices.framework in Frameworks */,
+				36C477631A2CD22D00212160 /* libz.dylib in Frameworks */,
+				36C477611A2CD22100212160 /* CoreLocation.framework in Frameworks */,
+				36C4775F1A2CD21700212160 /* CoreGraphics.framework in Frameworks */,
+				36C4775D1A2CD20B00212160 /* CFNetwork.framework in Frameworks */,
+				36C4775B1A2CD20000212160 /* AudioToolbox.framework in Frameworks */,
+				36C477581A2CD11A00212160 /* Parse.framework in Frameworks */,
+				36C477571A2CD11A00212160 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +103,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3616407D1A3029A500B372D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B597D41A2CFA6100B26BA5 /* Social.framework */,
+				36B597D21A2CFA5900B26BA5 /* Accounts.framework */,
+				36C4776C1A2CD26300212160 /* SystemConfiguration.framework */,
+				36C4776A1A2CD25800212160 /* StoreKit.framework */,
+				36C477681A2CD24E00212160 /* Security.framework */,
+				36C477661A2CD24400212160 /* QuartzCore.framework */,
+				36C477641A2CD23900212160 /* MobileCoreServices.framework */,
+				36C477621A2CD22D00212160 /* libz.dylib */,
+				36C477601A2CD22100212160 /* CoreLocation.framework */,
+				36C4775E1A2CD21700212160 /* CoreGraphics.framework */,
+				36C4775C1A2CD20B00212160 /* CFNetwork.framework */,
+				36C4775A1A2CD20000212160 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		36B7B4321A2C3556009D7B24 = {
 			isa = PBXGroup;
 			children = (
+				3616407D1A3029A500B372D3 /* Frameworks */,
 				36B7B43D1A2C3556009D7B24 /* Tinder */,
 				36B7B4531A2C3556009D7B24 /* TinderTests */,
 				36B7B43C1A2C3556009D7B24 /* Products */,
@@ -77,12 +144,17 @@
 		36B7B43D1A2C3556009D7B24 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				36DEB34C1A2FD44E004070F1 /* DisplayListViewController.swift */,
 				36B7B4401A2C3556009D7B24 /* AppDelegate.swift */,
 				36B7B4421A2C3556009D7B24 /* ViewController.swift */,
+				36C477541A2CD11A00212160 /* Bolts.framework */,
+				36C477551A2CD11A00212160 /* Parse.framework */,
 				36B7B4441A2C3556009D7B24 /* Main.storyboard */,
+				36DEB3481A2FC3A0004070F1 /* twitter.png */,
 				36B7B4471A2C3556009D7B24 /* Images.xcassets */,
 				36B7B4491A2C3556009D7B24 /* LaunchScreen.xib */,
 				36B7B43E1A2C3556009D7B24 /* Supporting Files */,
+				36B7B4621A2CC729009D7B24 /* Tinder-Bridging-Header.h */,
 			);
 			path = Tinder;
 			sourceTree = "<group>";
@@ -193,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B7B4461A2C3556009D7B24 /* Main.storyboard in Resources */,
+				36DEB3491A2FC3A0004070F1 /* twitter.png in Resources */,
 				36B7B44B1A2C3556009D7B24 /* LaunchScreen.xib in Resources */,
 				36B7B4481A2C3556009D7B24 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +287,7 @@
 			files = (
 				36B7B4431A2C3556009D7B24 /* ViewController.swift in Sources */,
 				36B7B4411A2C3556009D7B24 /* AppDelegate.swift in Sources */,
+				36DEB34D1A2FD44E004070F1 /* DisplayListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +410,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tinder",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Tinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tinder/Tinder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +428,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tinder",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Tinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tinder/Tinder-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +494,7 @@
 				36B7B45C1A2C3556009D7B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36B7B45D1A2C3556009D7B24 /* Build configuration list for PBXNativeTarget "TinderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +503,7 @@
 				36B7B45F1A2C3556009D7B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

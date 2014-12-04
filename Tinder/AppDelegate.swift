@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+//      Parse app credentials
+        Parse.setApplicationId("ARAyn4m8Wc35xurmwpiQ6LptXJipNP9vHNdQxroO", clientKey: "vxakJnFd7oHK1zN93PEw2pqFoLYO9cdFekRy112i")
+//      Twitter app credentials
+        PFTwitterUtils.initializeWithConsumerKey("fULvFoj31VWeJScawOAuqKGhX",
+            consumerSecret:"M1BLNJBQRvkNu6OqtKTX244Z6WVFBD67V9kjorG5X1XZxoVv74")
+    
         return true
     }
 
